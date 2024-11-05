@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../assets/icons/logo-white.svg" type="image/x-icon">
+    <title>Configuraciones</title>
+
+    <!-- Archivo de estilos personalizado -->
+    <link rel="stylesheet" href="./css/Settings.css">
+</head>
+<body>
+    <!-- Componente de navegación personalizado -->
+    <my-navbar></my-navbar>
+
+    <div class="container settings-container">
+        <div class="settings-container-1">
+            <div class="settings-header">Account Settings</div>
+        <div class="settings-subtitle">Edit your name, avatar, etc.</div>
+
+        <div class="profile-picture-container">
+            <div class="profile-picture">
+                <i class="fas fa-user"></i>
+            </div>
+        </div>
+        
+        <form>
+            <div class="form-group">
+                <label for="username">Your Name</label>
+                <input type="text" class="form-control" id="username" placeholder="Anthony Webb">
+            </div>
+            
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" class="form-control" id="password" placeholder="********">
+                <small><a href="#" class="btn-link">Change</a></small>
+            </div>
+            
+            <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" class="form-control" id="email" placeholder="myemail@address.com">
+                <small><a href="#" class="btn-link">Change</a></small>
+            </div>
+            
+            <div class="delete-account">
+                <a href="#">Delete Your Account</a>
+                <p>You will receive an email to confirm your decision. Please note, that all boards you have created will be permanently erased.</p>
+            </div>
+            
+            <div class="d-flex justify-content-between mt-4">
+                <button type="button" class="btn btn-cancel">Cancel</button>
+                <button type="submit" class="btn btn-primary btn-save">Save</button>
+            </div>
+        </form>
+        </div>
+    </div>
+
+    <!-- Componente de pie de página personalizado -->
+    <my-footer></my-footer>
+
+    <script src="../utils/Plugins.js"></script>
+    <script src="../components/Navbar.js"></script>
+    <script src="../components/Footer.js"></script>
+</body>
+</html>

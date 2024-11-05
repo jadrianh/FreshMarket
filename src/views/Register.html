@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../assets/icons/logo-white.svg" type="image/x-icon">
+    <title>Registro</title>
+
+    <!-- Archivo de estilos personalizado -->
+    <link rel="stylesheet" href="./css/Register.css">
+</head>
+<body class="d-flex justify-content-center align-items-center vh-100 bg-gradient-custom">
+    <div class="register-container d-flex flex-lg-row flex-column bg-white shadow overflow-hidden rounded">
+        <!-- Sidenav en negro -->
+        <div class="sidenav d-flex flex-column align-items-center justify-content-center text-white text-center p-4">
+            <h2 class="mb-3">Bienvenido!</h2>
+            <p>Enter to get unlimited access to data & information.</p>
+        </div>
+
+        <!-- Main -->
+        <div class="main p-4 p-lg-5 w-100">
+            <!-- Logo de la empresa -->
+            <div class="logo-container text-start">
+                <img src="../assets/icons/logo.svg" alt="Company Logo" class="company-logo mb-2">
+                <h1 class="title">CREAR UNA CUENTA</h1>
+            </div>
+
+            <!-- Formulario de register -->
+            <form class="register-form" id="register-form">
+                <div class="mb-2">
+                    <label class="form-label">Nombre <span class="text-danger">*</span></label>
+                    <input type="text" class="form-control" id="name" placeholder="Ingresa tu nombre completo" required minlength="5">
+                </div>
+
+                <div class="mb-2">
+                    <label class="form-label">Email <span class="text-danger">*</span></label>
+                    <input type="email" class="form-control" id="email" placeholder="Dirección de correo electronico" required minlength="12">
+                </div>
+
+                <div class="mb-2">
+                    <label class="form-label">Contraseña <span class="text-danger">*</span></label>
+                    <div class="input-group">
+                        <input type="password" class="form-control" id="password" placeholder="Ingresa tu contraseña" required minlength="6">
+                        <span class="input-group-text toggle-password"><i class="fas fa-eye"></i></span>
+                    </div>
+                </div>
+                
+                <div class="mb-2">
+                    <label class="form-label">Confirmar Contraseña <span class="text-danger">*</span></label>
+                    <div class="input-group">
+                        <input type="password" class="form-control" id="confirm-password" placeholder="Confirma tu contraseña" required minlength="6">
+                        <span class="input-group-text toggle-password"><i class="fas fa-eye"></i></span>
+                    </div>
+                </div>
+                
+
+                <!-- Botón de register -->
+                <button type="submit" class="btn btn-primary w-100 mt-3">Registrate</button>
+                <p id="register-status" class="text-danger text-center"> </p>
+
+                <!-- register con Google -->
+                <div class="register-divider mb-4">
+                    <span>O, Registrarte con</span>
+                </div>
+
+                <button type="button" class="btn btn-outline-secondary w-100 d-flex align-items-center justify-content-center" id="google-register">
+                    <img src="../assets/icons/google.svg" alt="Google Logo" class="google-logo me-2"> Continuar con Google
+                </button>
+            </form>
+            
+            <!-- Registro -->
+            <p class="text-center mt-3">Ya tienes una cuenta? <a href="./LogIn.html" class="text-primary">Inicia sesión</a></p>
+        </div>
+    </div>
+    <script src="../utils/SaveToken.js"></script>
+    <script src="../utils/TogglePassword.js"></script>
+    <script src="../utils/Plugins.js"></script>
+</body>
+</html>

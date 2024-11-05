@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../assets/icons/logo-white.svg" type="image/x-icon">
+    <title>Búsqueda</title>
+</head>
+<body>
+    <!-- Componente de navegación personalizado -->
+    <my-navbar></my-navbar>
+
+    <div class="container mt-5 mb-5">
+        <h1>Búsqueda de Productos</h1>
+        <div class="product-grid row mt-5 mb-5" id="product-container"></div>
+    </div>
+
+    <!-- Componente de pie de página personalizado -->
+    <my-footer></my-footer>
+
+    <script src="../utils/Plugins.js"></script>
+    <script src="../data/Products.js"></script>
+    <script src="../components/Navbar.js"></script>
+    <script src="../components/Footer.js"></script>
+    <script src="../components/ProductCard.js"></script>
+    <script>
+        // Obtener los parámetros de la URL
+        function getSearchQuery() {
+            const urlParams = new URLSearchParams(window.location.search);
+            return urlParams.get('q') || '';
+        }
+
+        // Filtrar productos que coincidan con la búsqueda
+        function searchAndRenderProducts() {
+            const query = getSearchQuery().toLowerCase();
+            const filteredProducts = products.filter(product => 
+                product.name.toLowerCase().includes(query)
+            );
+
+            renderProducts(filteredProducts);
+        }
+
+        // Ejecutar búsqueda y renderizar al cargar la página
+        document.addEventListener('DOMContentLoaded', searchAndRenderProducts);
+
+            </script>
+</body>
+</html>

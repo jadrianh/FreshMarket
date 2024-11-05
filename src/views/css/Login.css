@@ -1,0 +1,143 @@
+/* Estilos generales */
+h1,
+h2,
+h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+a,
+p,
+span,
+label {
+    font-family: 'Roboto', sans-serif;
+}
+
+button {
+    font-family: 'Poppins', serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Estilos para el background */
+.bg-gradient-custom {
+    background: linear-gradient(45deg, #09df5d, #0dba94, #5daae8, #09df5d, #015748);
+    background-size: 500% 500%;
+    animation: gradientAnimation 15s ease infinite;
+}
+
+@keyframes gradientAnimation {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+.login-container {
+    max-width: 990px;
+    width: 100%;
+    max-height: 750px;
+    height: 100%;
+}
+
+
+.login-divider {
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.login-divider span {
+    flex: 1;
+    height: 1px;
+    background-color: #ddd;
+    position: relative;
+    top: -8px;
+    color: #aaa;
+    margin-top: 2%;
+    margin-bottom: 3%;
+}
+
+.sidenav {
+    background-color: #ffd500;
+    width: 70%;
+    padding: 50px;
+}
+
+.sidenav h2 {
+    color: #1d1d1d;
+    font-weight: bold;
+}
+
+.sidenav p {
+    color: #1d1d1d;
+}
+
+.main {
+    width: 70%;
+    padding: 60px;
+}
+
+.company-logo {
+    max-width: 80px;
+}
+
+.google-logo {
+    max-width: 25px;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #4a4a4a;
+    margin-bottom: 30px;
+}
+
+.input-group-text {
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.input-group-text i {
+    font-size: 20px;
+}
+
+
+/* Adaptación a pantallas pequeñas */
+@media screen and (max-width: 988px) {
+    .login-container {
+        flex-direction: column;
+        height: auto;
+        width: 70%;
+    }
+
+    .sidenav,
+    .main {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .login-container {
+        flex-direction: column;
+        height: auto;
+        width: 90%;
+        font-size: 14px;
+    }
+
+    .company-logo {
+        display: none;
+    }
+
+    .sidenav {
+        width: 100%;
+    }
+    
+    .main {
+        width: 100%;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}

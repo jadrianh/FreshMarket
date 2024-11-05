@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../assets/icons/logo-white.svg" type="image/x-icon">
+    <title>FreshMarket</title>
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <!-- Popper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- FontAwesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    
+    <!-- Archivo de estilos personalizado -->
+    <link rel="stylesheet" href="./css/Main.css">
+  </head>
+
+  <body>
+    <!-- Componente de navegación personalizado -->
+    <my-navbar></my-navbar>
+
+    <!-- Contenedor del banner -->
+    <div class="container-lg mb-5">
+      <div class="row">
+        <div class="col-md-12">
+          <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+            <!-- Carousel indicators -->
+            <ol class="carousel-indicators">
+              <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+              <li data-target="#myCarousel" data-slide-to="1"></li>
+              <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+            <!-- Wrapper for carousel items -->
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="../assets/banner-slide.png" class="img-fluid" alt="Notebook">
+              </div>
+              <div class="carousel-item">
+                <img src="../assets/banner-slide-1.png" class="img-fluid" alt="Tablet">
+              </div>
+              <div class="carousel-item">
+                <img src="../assets/banner-slide.png" class="img-fluid" alt="Workstation">
+              </div>
+            </div>
+            <!-- Carousel controls -->
+            <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+              <i class="fa fa-angle-left"></i>
+            </a>
+            <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+              <i class="fa fa-angle-right"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container mb-4">
+      <h2 class="mb-4">Categorías</h2>
+      <div class="category-container">
+        <!-- Tarjetas de Categorías con URLs específicas -->
+        <div class="category-card" data-url="../views/Category.html?category=Frutas y Vegetales">
+          <i class="fas fa-apple-alt" style="color: #ce2029;"></i>
+          <p>Frutas Y Vegetales</p>
+        </div>
+        <div class="category-card" data-url="../views/Category.html?category=Panadería">
+          <i class="fas fa-bread-slice" style="color: #c19a6b;"></i>
+          <p>Panadería</p>
+        </div>
+        <div class="category-card" data-url="../views/Category.html?category=Licores">
+          <i class="fas fa-wine-bottle" style="color: #de3163;"></i>
+          <p>Vinos Y Licores</p>
+        </div>
+        <div class="category-card" data-url="../views/Category.html?category=Carnes y Embutidos">
+          <i class="fas fa-drumstick-bite" style="color: #d75c15;"></i>
+          <p>Carnes Y Embutidos</p>
+        </div>
+        <div class="category-card" data-url="../views/Category.html?category=Hierbas y Especias">
+          <i class="fas fa-leaf" style="color: #4cb411;"></i>
+          <p>Hierbas Y Especias</p>
+        </div>
+        <div class="category-card" data-url="../views/Category.html?category=Productos Lacteos">
+          <i class="fas fa-cheese" style="color: #f5bd3d;"></i>
+          <p>Lácteos</p>
+        </div>
+        <div class="category-card" data-url="../views/Category.html?category=Pescados y Mariscos">
+          <i class="fas fa-fish" style="color: #318ce7;"></i>
+          <p>Pescados Y Mariscos</p>
+        </div>
+      </div>
+    </div>
+    
+
+  <section>
+    <div class="container my-5">
+      <!-- Primera Sección -->
+      <div class="row align-items-center mb-5">
+        <div class="col-md-6 text-section">
+          <h2>Compra online</h2>
+          <p>Recibe tu pedido en casa con la misma calidad y frescura de siempre.</p>
+        </div>
+        <div class="col-md-6">
+          <img src="../assets/premium_photo-1683121938935-118d0a16a469.jpg" alt="Compra en línea" class="img-fluid">
+        </div>
+      </div>
+    
+      <!-- Segunda Sección -->
+      <div class="row align-items-center">
+        <div class="col-md-6">
+          <img src="../assets/ICE Cobotics Employee Grocery Supermarket.jpeg" alt="Nueva tienda online" class="img-fluid">
+        </div>
+        <div class="col-md-6 text-section">
+          <h2>Nueva tienda online en algunas zonas</h2>
+          <p>Por el momento, la nueva app y web está disponible en Valencia, Barcelona, Madrid y otras poblaciones. Introduce tu código postal arriba para ver si repartimos en tu zona. Si aún no llegamos, ¡apúntate y te avisamos!</p>
+          <a href="#" class="link">Avísame</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+    <!-- Seccion de Productos -->
+    <section class="py-5 px-5">
+      <div class="container">
+         <div class="container-fluid">
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="bootstrap-tabs product-tabs">
+                     <div class="tabs-header d-flex justify-content-between border-bottom my-5">
+                        <h3>Productos destacados</h3>
+                     </div>
+                     <div class="tab-content">
+                        <div class="tab-pane fade show active">
+                           <div class="product-grid row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5">
+                              <!-- Productos -->
+                              <div class="col">
+                                 <div class="row" id="product-container"></div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+
+   <!-- Sección de galería -->
+   <section id="gallery">
+    <div class="container">
+      <div class="row">
+
+        <!-- Card 1 -->
+        <div class="card-container col-lg-4 mb-4">
+          <div class="card">
+            <img 
+              src="../assets/promotional-2.png" 
+              alt="Sunset Image" 
+              class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">Sunset</h5>
+              <p class="card-text mb-4">Descripción breve de la imagen.</p>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="card-container col-lg-4 mb-4">
+          <div class="card">
+            <img 
+              src="../assets/promotional-1.png" 
+              alt="Nature Image" 
+              class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">Nature</h5>
+              <p class="card-text mb-4">Descripción breve de la imagen.</p>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+    <!-- Componente de pie de página personalizado -->
+    <my-footer></my-footer>
+
+    <!-- Scripts externos (jQuery y Bootstrap) para funcionalidades -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    
+    <!-- Scripts de componentes personalizados -->
+    <script src="../utils/Plugins.js"></script>
+    <script src="../components/Navbar.js"></script>
+    <script src="../components/Footer.js"></script>
+    <script src="../data/Products.js"></script>
+    <script src="../components/ProductCard.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+      $(document).ready(function() {
+        // Suponiendo que `products` es un arreglo de objetos de producto que ya tienes
+        const topRatedProducts = products
+            .sort((a, b) => b.rating - a.rating) // Ordenar los productos por rating de mayor a menor
+            .slice(0, 16); // Tomar solo los 12 productos con mayor rating
+
+        // Llamar a renderProducts con los productos filtrados
+        renderProducts(topRatedProducts);
+      });
+
+      $(document).ready(function() {
+        $('.category-card').click(function() {
+          // Obtiene la URL desde el atributo data-url
+          const url = $(this).data('url');
+          // Redirige al usuario a la URL especificada
+          window.location.href = url;
+        });
+      });
+    </script>
+  </body>
+</html>
