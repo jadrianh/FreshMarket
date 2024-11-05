@@ -92,7 +92,7 @@ const products = [
     },
 //-----------------------------------------VEGETABLES-----------------------------------------------//
     {
-        id: "01",
+        id: "10",
         image: '../assets/img/vegetables/broccoli.webp', 
         name: "Brócoli",
         pricePerUnit: 3.99,
@@ -102,7 +102,7 @@ const products = [
         discount: 0.2
     },
     {
-        id: "02",
+        id: "11",
         image: '../assets/img/vegetables/Cauliflower Florets.webp', 
         name: "Coliflor",
         pricePerUnit: 2.49,
@@ -112,7 +112,7 @@ const products = [
         discount: 0
     },
     {
-        id: "03",
+        id: "12",
         image: '../assets/img/vegetables/Frozen Steam-in-bag Edamame.webp', 
         name: "Edamame",
         pricePerUnit: 1.99,
@@ -122,7 +122,7 @@ const products = [
         discount: 0.1
     },
     {
-        id: "04",
+        id: "13",
         image: '../assets/img/vegetables/miniCucumbers.webp', 
         name: "Mini Pepinillos",
         pricePerUnit: 1.99,
@@ -132,7 +132,7 @@ const products = [
         discount: 0
     },
     {
-        id: "05",
+        id: "14",
         image: '../assets/img/vegetables/Premium Grape Tomatoes.webp', 
         name: "Tomate Cherri",
         pricePerUnit: 2.39,
@@ -142,7 +142,7 @@ const products = [
         discount: 0
     },
     {
-        id: "06",
+        id: "15",
         image: '../assets/img/vegetables/romaineHeart.webp', 
         name: "Lechuga Romana",
         pricePerUnit: 3.29,
@@ -152,7 +152,7 @@ const products = [
         discount: 0.1
     },
     {
-        id: "07",
+        id: "16",
         image: '../assets/img/vegetables/Espinacas.webp', 
         name: "Champiñones en rodajas",
         pricePerUnit: 1.99,
@@ -162,7 +162,7 @@ const products = [
         discount: 0
     },
     {
-        id: "08",
+        id: "17",
         image: '../assets/img/vegetables/tomatoes.webp', 
         name: "Tomates",
         pricePerUnit: 1.39,
@@ -174,7 +174,7 @@ const products = [
 
     //-----------------------------------------MEATS-----------------------------------------------//
     {
-        id: "01",
+        id: "18",
         image: '../assets/img/meats/beef Burger.webp', 
         name: "Carne para Hamburguesa",
         pricePerUnit: 7.99,
@@ -184,7 +184,7 @@ const products = [
         discount: 0
     },
     {
-        id: "02",
+        id: "19",
         image: '../assets/img/meats/beef steak.webp', 
         name: "Tiras de filete de res",
         pricePerUnit: 13.45,
@@ -194,7 +194,7 @@ const products = [
         discount: 0
     },
     {
-        id: "03",
+        id: "20",
         image: '../assets/img/meats/chicken breast.webp', 
         name: "Pechuga de pollo sin piel",
         pricePerUnit: 11.99,
@@ -204,7 +204,7 @@ const products = [
         discount: 0.1
     },
     {
-        id: "04",
+        id: "21",
         image: '../assets/img/meats/funNuggets.webp', 
         name: "Fun Nuggets",
         pricePerUnit: 6.99,
@@ -214,7 +214,7 @@ const products = [
         discount: 0
     },
     {
-        id: "05",
+        id: "22",
         image: '../assets/img/meats/ground beef.webp', 
         name: "Carne Molida",
         pricePerUnit: 7.59,
@@ -224,7 +224,7 @@ const products = [
         discount: 0
     },
     {
-        id: "06",
+        id: "23",
         image: '../assets/img/meats/pork Ribs.webp', 
         name: "Costilla de cerdo",
         pricePerUnit: 16.04,
@@ -234,7 +234,7 @@ const products = [
         discount: 0.1
     },
     {
-        id: "07",
+        id: "24",
         image: '../assets/img/meats/sirlonSteak.webp', 
         name: "Solomito de res",
         pricePerUnit: 30.22,
@@ -244,7 +244,7 @@ const products = [
         discount: 0
     },
     {
-        id: "08",
+        id: "25",
         image: '../assets/img/meats/steackHose.webp', 
         name: "Steakhouse",
         pricePerUnit: 8.99,
@@ -256,7 +256,7 @@ const products = [
 
     //-----------------------------------------SEAFOOD-----------------------------------------------//
     {
-        id: "01",
+        id: "26",
         image: '../assets/img/seafood/salmon.webp', 
         name: "Salmon",
         pricePerUnit: 9.99,
@@ -266,7 +266,7 @@ const products = [
         discount: 0
     },
     {
-        id: "02",
+        id: "27",
         image: '../assets/img/seafood/salmonBurger.webp', 
         name: "Rodajas de salmons para hamburguesa",
         pricePerUnit: 9.99,
@@ -276,7 +276,7 @@ const products = [
         discount: 0
     },
     {
-        id: "03",
+        id: "28",
         image: '../assets/img/seafood/seaCuisine.webp', 
         name: "Ajo y Hierba Tilapia",
         pricePerUnit: 9.99,
@@ -286,7 +286,7 @@ const products = [
         discount: 0.1
     },
     {
-        id: "04",
+        id: "29",
         image: '../assets/img/seafood/sesameSalmon.webp', 
         name: "Salmón al sésamo",
         pricePerUnit: 9.99,
@@ -296,7 +296,7 @@ const products = [
         discount: 0
     },
     {
-        id: "05",
+        id: "30",
         image: '../assets/img/seafood/shrimp congelado.webp', 
         name: "Camaron congelado",
         pricePerUnit: 6.99,
@@ -306,7 +306,7 @@ const products = [
         discount: 0
     },
     {
-        id: "06",
+        id: "31",
         image: '../assets/img/seafood/shrimpInCrispy.webp', 
         name: "Camarones Empanizados",
         pricePerUnit: 6.99,
@@ -316,7 +316,7 @@ const products = [
         discount: 0.1
     },
     {
-        id: "07",
+        id: "32",
         image: '../assets/img/seafood/shrimpJumbo.webp', 
         name: "Camarones Jumbo",
         pricePerUnit: 9.99,
@@ -326,7 +326,7 @@ const products = [
         discount: 0
     },
     {
-        id: "08",
+        id: "33",
         image: '../assets/img/seafood/tuna.webp', 
         name: "Atun enlatado",
         pricePerUnit: 1.29,
@@ -338,7 +338,7 @@ const products = [
 
     //-----------------------------------------LACTOSE-----------------------------------------------//
     {
-        id: "01",
+        id: "34",
         image: '../assets/img/lactose/lecheConVitamidaD.webp', 
         name: "Leche con Vitamida D",
         pricePerUnit: 3.49,
@@ -348,7 +348,7 @@ const products = [
         discount: 0
     },
     {
-        id: "02",
+        id: "35",
         image: '../assets/img/lactose/lecheDeAlmendra.webp', 
         name: "Leche de Almendra",
         pricePerUnit: 3.39,
@@ -358,7 +358,7 @@ const products = [
         discount: 0
     },
     {
-        id: "03",
+        id: "36",
         image: '../assets/img/lactose/lecheDeChocolate.webp', 
         name: "Leche con Chocolate",
         pricePerUnit: 4.49,
@@ -368,7 +368,7 @@ const products = [
         discount: 0.1
     },
     {
-        id: "04",
+        id: "37",
         image: '../assets/img/lactose/lecheDeCoco.webp', 
         name: "Leche de Coco",
         pricePerUnit: 1.99,
@@ -378,7 +378,7 @@ const products = [
         discount: 0
     },
     {
-        id: "05",
+        id: "38",
         image: '../assets/img/lactose/lecheDeslactosada.webp', 
         name: "Leche deslactosada",
         pricePerUnit: 4.49,
@@ -388,7 +388,7 @@ const products = [
         discount: 0
     },
     {
-        id: "06",
+        id: "39",
         image: '../assets/img/lactose/lecheEnteraDeslactosada.webp', 
         name: "Leche entera Deslactosada",
         pricePerUnit: 4.49,
@@ -398,7 +398,7 @@ const products = [
         discount: 0.1
     },
     {
-        id: "07",
+        id: "40",
         image: '../assets/img/lactose/sorbeteDeVainilla.webp', 
         name: "Helado de Vainilla",
         pricePerUnit: 5.29,
@@ -408,7 +408,7 @@ const products = [
         discount: 0
     },
     {
-        id: "08",
+        id: "41",
         image: '../assets/img/lactose/yogurtGriego.webp', 
         name: "Yogurt Griego",
         pricePerUnit: 6.69,
@@ -419,7 +419,7 @@ const products = [
     },
 //-----------------------------------------SPICES-----------------------------------------------//
     {
-        id: "01",
+        id: "42",
         image: '../assets/img/spices/ajoMolido.webp', 
         name: "Ajo Molido",
         pricePerUnit: 0.99,
@@ -429,7 +429,7 @@ const products = [
         discount: 0
     },
     {
-        id: "02",
+        id: "43",
         image: '../assets/img/spices/sazonadorItaliano.webp', 
         name: "Sazonador Italiano",
         pricePerUnit: 0.99,
@@ -439,7 +439,7 @@ const products = [
         discount: 0
     },
     {
-        id: "03",
+        id: "44",
         image: '../assets/img/spices/pimientaNegra.webp', 
         name: "Pimienta negra",
         pricePerUnit: 2.89,
@@ -449,7 +449,7 @@ const products = [
         discount: 0
     },
     {
-        id: "04",
+        id: "45",
         image: '../assets/img/spices/papikraMolida.webp', 
         name: "Paprika Molida",
         pricePerUnit: 0.99,
@@ -459,7 +459,7 @@ const products = [
         discount: 0
     },
     {
-        id: "05",
+        id: "46",
         image: '../assets/img/spices/salIonizada.webp', 
         name: "Sal Ionizada",
         pricePerUnit: 0.75,
@@ -469,7 +469,7 @@ const products = [
         discount: 0
     },
     {
-        id: "06",
+        id: "47",
         image: '../assets/img/spices/CebollaMolida.webp', 
         name: "Cebolla Molida",
         pricePerUnit: 0.99,
@@ -479,7 +479,7 @@ const products = [
         discount: 0
     },
     {
-        id: "07",
+        id: "48",
         image: '../assets/img/spices/cominoMolido.webp', 
         name: "Comino Molido",
         pricePerUnit: 0.99,
@@ -489,7 +489,7 @@ const products = [
         discount: 0
     },
     {
-        id: "08",
+        id: "49",
         image: '../assets/img/spices/chileenpolvo.webp', 
         name: "Chile en Polvo",
         pricePerUnit: 0.99,
@@ -500,7 +500,7 @@ const products = [
     },
     //-----------------------------------------Liquors-----------------------------------------------//
     {
-        id: "01",
+        id: "50",
         image: '../assets/img/liquors/vodkatitos.webp', 
         name: "Vodka TITO'S",
         pricePerUnit: 31.99,
@@ -510,7 +510,7 @@ const products = [
         discount: 0
     },
     {
-        id: "02",
+        id: "51",
         image: '../assets/img/liquors/vodkasmir.webp', 
         name: "Vodka Smirnoff",
         pricePerUnit: 15.99,
@@ -520,7 +520,7 @@ const products = [
         discount: 0
     },
     {
-        id: "03",
+        id: "52",
         image: '../assets/img/liquors/jackdaniels.webp', 
         name: "Jack Daniels No. 7 Tennessee Whiskey",
         pricePerUnit: 36.99,
@@ -530,7 +530,7 @@ const products = [
         discount: 0
     },
     {
-        id: "04",
+        id: "53",
         image: '../assets/img/liquors/tequilaespo.webp', 
         name: "Tequila Espolón",
         pricePerUnit: 29.99,
@@ -540,7 +540,7 @@ const products = [
         discount: 0
     },
     {
-        id: "05",
+        id: "54",
         image: '../assets/img/liquors/smirchile.webp', 
         name: "Vodka Smirnoff Tamarindo",
         pricePerUnit: 15.99,
@@ -550,7 +550,7 @@ const products = [
         discount: 0
     },
     {
-        id: "06",
+        id: "55",
         image: '../assets/img/liquors/irish.webp', 
         name: "Whiskey Jameson 3yr Irish ",
         pricePerUnit: 29.99,
@@ -560,7 +560,7 @@ const products = [
         discount: 0
     },
     {
-        id: "07",
+        id: "56",
         image: '../assets/img/liquors/tequilablanco.webp', 
         name: "Casamigos Blanco Tequila",
         pricePerUnit: 43.99,
@@ -570,7 +570,7 @@ const products = [
         discount: 0
     },
     {
-        id: "08",
+        id: "57",
         image: '../assets/img/liquors/tequilaplata', 
         name: "Patrón Silver Tequila",
         pricePerUnit: 29.99,
@@ -581,7 +581,7 @@ const products = [
     },
     //-----------------------------------------Bakery-----------------------------------------------//
     {
-        id: "01",
+        id: "58",
         image: '../assets/img/bakery/galletascho.webp', 
         name: "Galletas con chispas de chocolate",
         pricePerUnit: 26.99,
@@ -591,7 +591,7 @@ const products = [
         discount: 0
     },
     {
-        id: "02",
+        id: "59",
         image: '../assets/img/bakery/minidonas.webp', 
         name: "Mini Donas",
         pricePerUnit: 3.89,
@@ -601,7 +601,7 @@ const products = [
         discount: 0
     },
     {
-        id: "03",
+        id: "60",
         image: '../assets/img/bakery/rolesdecanela.webp', 
         name: "Roles de Canela",
         pricePerUnit: 4.99,
@@ -611,7 +611,7 @@ const products = [
         discount: 0
     },
     {
-        id: "04",
+        id: "61",
         image: '../assets/img/bakery/quesodanes.webp', 
         name: "Queso Danés",
         pricePerUnit: 4.49,
@@ -621,7 +621,7 @@ const products = [
         discount: 0
     },
     {
-        id: "05",
+        id: "62",
         image: '../assets/img/bakery/blueberr.webp', 
         name: "Mini bollos con trozos de chocolate blanco y arándanos",
         pricePerUnit: 54.99,
@@ -631,7 +631,7 @@ const products = [
         discount: 0
     },
     {
-        id: "06",
+        id: "63",
         image: '../assets/img/bakery/hallowengalleta.webp', 
         name: "Galletas de mantequilla de Hallowen",
         pricePerUnit: 13.99,
@@ -641,7 +641,7 @@ const products = [
         discount: 0
     },
     {
-        id: "07",
+        id: "64",
         image: '../assets/img/bakery/mofin.webp', 
         name: "Variedad de muffins de pastel de café con streusel de arándanos y canela",
         pricePerUnit: 3.99,
@@ -651,7 +651,7 @@ const products = [
         discount: 0
     },
     {
-        id: "08",
+        id: "65",
         image: '../assets/img/bakery/scones.webp', 
         name: "Mini bollos de naranja y arándanos",
         pricePerUnit: 4.99,
@@ -662,7 +662,7 @@ const products = [
     },
     //-----------------------------------------CANNED-----------------------------------------------//
     {
-        id: "01",
+        id: "66",
         image: '../assets/img/canned/cocadiet.webp', 
         name: "CocaCola dietetica",
         pricePerUnit: 7.99,
@@ -672,7 +672,7 @@ const products = [
         discount: 0
     },
     {
-        id: "02",
+        id: "67",
         image: '../assets/img/canned/cocacola.webp', 
         name: "Coca-Cola Original",
         pricePerUnit: 7.99,
@@ -682,7 +682,7 @@ const products = [
         discount: 0
     },
     {
-        id: "03",
+        id: "68",
         image: '../assets/img/canned/sprite.webp', 
         name: "Sprite en lata",
         pricePerUnit: 7.99,
@@ -692,7 +692,7 @@ const products = [
         discount: 0
     },
     {
-        id: "04",
+        id: "69",
         image: '../assets/img/canned/olipop.webp', 
         name: "Soda Prebiótica Olipop Fresa Vainilla",
         pricePerUnit: 8.99,
@@ -702,7 +702,7 @@ const products = [
         discount: 0
     },
     {
-        id: "05",
+        id: "70",
         image: '../assets/img/canned/olipopuva.webp', 
         name: "Soda Prebiótica Olipop Uva",
         pricePerUnit: 8.99,
@@ -712,7 +712,7 @@ const products = [
         discount: 0
     },
     {
-        id: "06",
+        id: "71",
         image: '../assets/img/canned/drpepper.webp', 
         name: "Soda Dr Pepper",
         pricePerUnit: 7.49,
@@ -722,7 +722,7 @@ const products = [
         discount: 0
     },
     {
-        id: "07",
+        id: "72",
         image: '../assets/img/canned/sunsip.webp', 
         name: "Health-Ade SunSip refresco de vainilla y fresa con beneficios",
         pricePerUnit: 2.49,
@@ -732,7 +732,7 @@ const products = [
         discount: 0
     },
     {
-        id: "08",
+        id: "73",
         image: '../assets/img/canned/cocazero.webp', 
         name: "Coca-cola Zero",
         pricePerUnit: 7.99,
@@ -743,7 +743,7 @@ const products = [
     },
     //-----------------------------------------snacks-----------------------------------------------//
     {
-        id: "01",
+        id: "74",
         image: '../assets/img/snacks/fritolay.webp', 
         name: "Paquete Variedad Frito Lay",
         pricePerUnit: 9.99,
@@ -753,7 +753,7 @@ const products = [
         discount: 0
     },
     {
-        id: "02",
+        id: "75",
         image: '../assets/img/snacks/veggie.webp', 
         name: "Sensible Portions Garden Veggie Straws Sea Salt",
         pricePerUnit: 5.49,
@@ -763,7 +763,7 @@ const products = [
         discount: 0
     },
     {
-        id: "03",
+        id: "76",
         image: '../assets/img/snacks/pringles.webp', 
         name: "Paquete Pringles",
         pricePerUnit: 10.69,
@@ -773,7 +773,7 @@ const products = [
         discount: 0
     },
     {
-        id: "04",
+        id: "77",
         image: '../assets/img/snacks/baked.webp', 
         name: "Paquete variado Frito-Lay mezcla horneada y reventada",
         pricePerUnit: 9.99,
@@ -783,7 +783,7 @@ const products = [
         discount: 0
     },
     {
-        id: "05",
+        id: "78",
         image: '../assets/img/snacks/fritopak.webp', 
         name: "Mezcla de sabores del paquete variado Frito-Lay",
         pricePerUnit: 9.99,
@@ -793,7 +793,7 @@ const products = [
         discount: 0
     },
     {
-        id: "06",
+        id: "79",
         image: '../assets/img/snacks/bbq.webp', 
         name: "Pringles BBQ",
         pricePerUnit: 2.39,
@@ -803,7 +803,7 @@ const products = [
         discount: 0
     },
     {
-        id: "07",
+        id: "80",
         image: '../assets/img/snacks/ajo y crema.webp', 
         name: "Pringles cebolla y crema",
         pricePerUnit: 2.39,
@@ -813,7 +813,7 @@ const products = [
         discount: 0
     },
     {
-        id: "08",
+        id: "81",
         image: '../assets/img/snacks/organic.webp', 
         name: "Totopos Organicos",
         pricePerUnit: 3.99,
@@ -824,7 +824,7 @@ const products = [
     },
     //-----------------------------------------beverages-----------------------------------------------//
     {
-        id: "01",
+        id: "82",
         image: '../assets/img/beverages/awa.webp', 
         name: "Agua Purificada",
         pricePerUnit: 1.29,
@@ -834,7 +834,7 @@ const products = [
         discount: 0
     },
     {
-        id: "02",
+        id: "83",
         image: '../assets/img/beverages/awades.webp', 
         name: "Agua Destilada",
         pricePerUnit: 1.39,
@@ -844,7 +844,7 @@ const products = [
         discount: 0
     },
     {
-        id: "03",
+        id: "84",
         image: '../assets/img/beverages/lemonade.webp', 
         name: "Limonada Simple",
         pricePerUnit: 2.99,
@@ -854,7 +854,7 @@ const products = [
         discount: 0
     },
     {
-        id: "04",
+        id: "85",
         image: '../assets/img/beverages/pakawa.webp', 
         name: "Paquete Agua purificada",
         pricePerUnit: 3.59,
@@ -864,7 +864,7 @@ const products = [
         discount: 0
     },
     {
-        id: "05",
+        id: "86",
         image: '../assets/img/beverages/orange.webp', 
         name: "Jugo de Naranja",
         pricePerUnit: 4.29,
@@ -874,7 +874,7 @@ const products = [
         discount: 0
     },
     {
-        id: "06",
+        id: "87",
         image: '../assets/img/beverages/apple.webp', 
         name: "Jugo de manzana",
         pricePerUnit: 1.99,
@@ -884,7 +884,7 @@ const products = [
         discount: 0
     },
     {
-        id: "07",
+        id: "88",
         image: '../assets/img/beverages/capri.webp', 
         name: "Caprisun",
         pricePerUnit: 3.19,
@@ -894,7 +894,7 @@ const products = [
         discount: 0
     },
     {
-        id: "08",
+        id: "89",
         image: '../assets/img/beverages/raperry.webp', 
         name: "Juego de limon con frambuesa",
         pricePerUnit: 2.99,
