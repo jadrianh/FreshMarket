@@ -124,7 +124,7 @@ class Navbar extends HTMLElement {
                 </li>
                 <li>
                     <a id="closeSession" class="dropdown-item" href="../views/Login.html">
-                    Sign out
+                    Login/Sign out
                     </a>
                 </li>
                 </ul>
